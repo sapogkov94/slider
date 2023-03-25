@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+a, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+    text-decoration: none;
+    line-height: 1.2;
+}
+button:focus,
+textarea:focus,
+select:focus{
+	outline: none!important;
+	-webkit-appearance:none;
+	box-shadow: none;
+}
+input:focus{
+	outline: none!important;
+}
+a:active, a:focus {
+  outline: 0;
+  outline: none!important;
+  border: none;
+  -moz-outline-style: none;
+}
+
+
+.wrapper {
+	overflow: hidden;
+}
+
+
+
+.years-input {
+	margin-top: 100px !important;
+}
+/* ************************************************ */
+
+.irs--round .irs-handle {
+  cursor: pointer;
+  transition: .2s all ease;
+}
+.irs--round .irs-handle:hover {
+  transform: scale(1.1);
+}
+.irs--round .irs-grid-pol {
+  opacity: 0;
+}
+
+.irs-from, .irs-to, .irs-single {
+  white-space: normal;
+  width: 40px;
+  text-align: center;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -23px;
+}
+.irs--round .irs-from:before, .irs--round .irs-to:before, .irs--round .irs-single:before {
+  border: 5px solid transparent;
+  bottom: -8px;
+  border-top-color: #fff;
+}
+.irs--round .irs-from, .irs--round .irs-to, .irs--round .irs-single {
+  font-size: 12px;
+  background-color: #fff;
+  color: #58ABEA;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
+}
+/* /////////////// */
+.years-input {
+  margin-top: 100px;
+  display: none;
+}
+
+.input-block .irs {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+	.container {max-width: 992px;}
+}
+
+@media (min-width: 1240px) {
+	.container {max-width: 1240px;}
+}
+
+@media (min-width: 1860px) {
+	.container {max-width: 1440px;}
+}
+
+.main-sec_active .months-input{
+  display: none !important;
+}
+.main-sec_active .years-input{
+  display: block !important;
+}
+.main-sec_active2 .months-input{
+  display: block !important;
+  margin-top: 100px;
+}
+.main-sec_active2 .years-input{
+  display: none !important;
+}
+.main-sec_active2 .tab_button_in2{
+  opacity: 1;
+}
+.main-sec_active .tab_button_in1{
+  opacity: 1;
+}
+.main-sec .container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.month_year_tab{
+  display: block;
+  width: 100%;
+}
+.tab_button button{
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+  color: blue;
+  opacity: 0.7;
+}
+.tab_button button:first-child{
+  margin-top: 110px;
+}
+@media(max-width:600px){
+  .main-sec .tab_button button{
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
+/*@media only screen and (max-width: 480px){}*/
+
+

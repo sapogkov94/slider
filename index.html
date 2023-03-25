@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Personal Cabinet</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="main-sec">
+			<div class="container">
+				<div class="tab_button">
+					<button class="tab_button_in1">месяца</button>
+					<button class="tab_button_in2">все года</button>
+				</div>
+				<div class="month_year_tab">
+					<div class="months-input input-block">
+
+						<input type="text" class="js-range-slider-two" 
+							name="my_range" 
+							value=""
+							min="0"
+							max="96"
+						/>
+	
+					</div>
+					<div class="years-input input-block">
+	
+						<input type="text" class="js-range-slider" 
+							name="my_range" 
+							value=""
+							data-type="double"
+							data-min="0"
+							data-max="24"
+							data-from="0"
+							data-to="24"
+							data-grid="true"
+						/>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
